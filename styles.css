@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: 0,2rem;
+}
+.movieSearchSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.movieSearchSection>*{
+    margin: 1rem 0rem;
+
+}
+.moviesListing{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+}
+.movieCard{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 10%;
+    border-radius: 5px;
+    height: 400px;
+    width: 200px;
+    color:rgb(255, 47, 92);
+}
+.movieCard>img{
+    height: 250px;
+    width: 100%;
+}
+.movieCard>div{
+    padding: 1rem;
+}
+.movieDetails{
+    display: flex;
+    flex-direction: row;
+}
+.paginationBar{
+    display: flex;
+    justify-content: center;
+}
+
+/* Styling of Header */
+.h1Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color:rgb(47, 255, 175);
+
+}
+
+.btn{
+    background-color:rgb(213, 47, 255);
+}
